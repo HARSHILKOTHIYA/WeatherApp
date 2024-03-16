@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Wether App</title>
+</head>
+
+<body>
+    <div class="wetherapp">
+        <div class="search">
+
+            <input type="text" placeholder="search for a city..." class="wether-search">
+            <button type="submit" class="btn"><i class="fa fa-search"></i></button>
+    
+        </div>
+
+
+        <div class="weather-body">
+            <div class="city-name">City, Country</div>
+            <div class="city-date">Date, Time</div>
+            <div class="wether-forcast">Forcast</div>
+            <div class="wether-icon"></div>
+            <div class="tempture">00&#176C</div>
+            <div class="minmax">
+                <p class="min">Min: 00&#176C</p>
+                <p class="max">Max: 00&#176C</p>
+            </div>
+        </div>
+
+
+        <div class="weather-info">
+            <div class="weather-card">
+                <i class="fa-solid fa-temperature-full"></i>
+                <div>
+                    <p>Real Feel</p>
+                    <p class="real-feel"></p>
+                </div>
+            </div>
+
+            <div class="weather-card">
+                <i class="fa-solid fa-droplet"></i>
+                <div>
+                    <p>Humidity</p>
+                    <p class="humidity"></p>
+                </div>
+            </div>
+
+            <div class="weather-card">
+                <i class="fa-solid fa-wind"></i>
+                <div>
+                    <p>Wind</p>
+                    <p class="wind"></p>
+                </div>
+            </div>
+
+            <div class="weather-card">
+                <i class="fa-solid fa-gauge-high"></i>
+                <div>
+                    <p>Pressure</p>
+                    <p class="pressure"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a692e1c39f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
